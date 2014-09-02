@@ -32,10 +32,12 @@ This module will install all the necessary modules to test the CLVsol Odoo solut
     'depends': [
         'clv_base',
         'clv_tag',
+        'clv_annotation',
         ],
     'data': [
         'mostlyopen_view.xml',
         'clv_tag_sequence.xml',
+        'clv_annotation_sequence.xml',
         ],
     'test': [],
     'installable': True,
