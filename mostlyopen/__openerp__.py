@@ -31,9 +31,11 @@ This module will install all the necessary modules to test the CLVsol Odoo solut
     ''',
     'depends': [
         'clv_base',
+        'clv_tag',
         ],
     'data': [
-        'clvhealth_jcafb_view.xml',
+        'mostlyopen_view.xml',
+        'clv_tag_sequence.xml',
         ],
     'test': [],
     'installable': True,

@@ -29,7 +29,7 @@ This module will install all the necessary modules for the CLVhealth-JCAFB solut
     ''',
     'depends': [
         'clv_base',
-        # 'clv_tag',
+        'clv_tag',
         # 'clv_annotation',
         # 'clv_person',
         # 'clv_patient',
@@ -37,6 +37,7 @@ This module will install all the necessary modules for the CLVhealth-JCAFB solut
         ],
     'data': [
         'clvhealth_jcafb_view.xml',
+        'clv_tag_sequence.xml',
         ],
     'test': [],
     'installable': True,
