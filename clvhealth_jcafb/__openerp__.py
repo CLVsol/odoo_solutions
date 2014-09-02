@@ -40,6 +40,7 @@ This module will install all the necessary modules for the CLVhealth-JCAFB solut
         'clv_tag_sequence.xml',
         'clv_annotation_sequence.xml',
         'clv_person_sequence.xml',
+        'clv_person_category_sequence.xml',
         ],
     'test': [],
     'installable': True,
