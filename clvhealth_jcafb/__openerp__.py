@@ -32,7 +32,7 @@ This module will install all the necessary modules for the CLVhealth-JCAFB solut
         'clv_tag',
         'clv_annotation',
         'clv_person',
-        # 'clv_patient',
+        'clv_patient',
         # 'clv_lab_test',
         ],
     'data': [
@@ -41,6 +41,8 @@ This module will install all the necessary modules for the CLVhealth-JCAFB solut
         'clv_annotation_sequence.xml',
         'clv_person_sequence.xml',
         'clv_person_category_sequence.xml',
+        'clv_patient_sequence.xml',
+        'clv_patient_category_sequence.xml',
         ],
     'test': [],
     'installable': True,
