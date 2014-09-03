@@ -35,33 +35,6 @@
                     sequence="20"
                     action="clv_annotation.act_open_clv_annotation_category_view"/>
 
-        <!-- Agro -->
-        <menuitem name="Agro" id="menu_agro" 
-            groups="clv_base.group_base_user"
-            sequence="12"/>
-            <!-- Agro/Agro -->
-            <menuitem name="Agro" id="menu_agro_agro"  
-                parent="menu_agro"
-                groups="clv_base.group_base_user"
-                sequence="10"/>
-                <!-- Agro/Agro/Places -->
-                <menuitem name="Places" id="menu_agro_agro_placews"
-                    parent="menu_agro_agro"
-                    groups="clv_base.group_place_user"
-                    sequence="10"
-                    action="clv_place.act_open_clv_place_view"/>
-            <!-- Agro/Configuration -->
-            <menuitem name="Configuration" id="menu_agro_config"  
-                parent="menu_agro"
-                groups="clv_base.group_base_manager"
-                sequence="90"/>
-                <!-- Agro/Configuration/Place Categories -->
-                <menuitem name="Place Categories" id="menu_agro_config_place_categories"
-                    parent="menu_agro_config"
-                    groups="clv_base.group_place_user"
-                    sequence="10"
-                    action="clv_place.act_open_clv_place_category_view"/>
-
         <!-- Community -->
         <menuitem name="Community" id="menu_commutity" 
             groups="clv_base.group_base_user"
