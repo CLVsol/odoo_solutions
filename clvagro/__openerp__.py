@@ -34,6 +34,7 @@ This module will install all the necessary modules to implement the CLVsol agro 
         'clv_tag',
         'clv_annotation',
         'clv_place',
+        'clv_frame',
         ],
     'data': [
         'clvagro_view.xml',

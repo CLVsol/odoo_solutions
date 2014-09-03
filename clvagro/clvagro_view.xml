@@ -45,11 +45,17 @@
                 groups="clv_base.group_base_user"
                 sequence="10"/>
                 <!-- Agro/Agro/Places -->
-                <menuitem name="Places" id="menu_agro_agro_placews"
+                <menuitem name="Places" id="menu_agro_agro_places"
                     parent="menu_agro_agro"
                     groups="clv_base.group_place_user"
                     sequence="10"
                     action="clv_place.act_open_clv_place_view"/>
+                <!-- Agro/Agro/Frames -->
+                <menuitem name="Frames" id="menu_agro_agro_frames"
+                    parent="menu_agro_agro"
+                    groups="clv_base.group_frame_user"
+                    sequence="20"
+                    action="clv_frame.act_open_clv_frame_view"/>
             <!-- Agro/Configuration -->
             <menuitem name="Configuration" id="menu_agro_config"  
                 parent="menu_agro"
@@ -61,6 +67,12 @@
                     groups="clv_base.group_place_user"
                     sequence="10"
                     action="clv_place.act_open_clv_place_category_view"/>
+                <!-- Agro/Configuration/Frame Categories -->
+                <menuitem name="Frame Categories" id="menu_agro_config_frame_categories"
+                    parent="menu_agro_config"
+                    groups="clv_base.group_frame_user"
+                    sequence="20"
+                    action="clv_frame.act_open_clv_frame_category_view"/>
 
     </data>
 </openerp>
