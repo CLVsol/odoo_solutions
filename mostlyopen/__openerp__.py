@@ -37,6 +37,7 @@ This module will install all the necessary modules to test the CLVsol Odoo solut
         'clv_person',
         'clv_patient',
         'clv_lab_test',
+        'clv_survey',
         'clv_insured',
         ],
     'data': [
