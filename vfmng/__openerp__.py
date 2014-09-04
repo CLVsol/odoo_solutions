@@ -18,42 +18,25 @@
 ################################################################################
 
 {
-    'name': 'MostlyOpen - testing CLVsol Oddoo solutions',
+    'name': 'Virtual File Mamagement',
     'version': '1.0',
     'author': 'Carlos Eduardo Vercelino - CLVsol',
     'category': 'Generic Modules/Others',
     'license': 'AGPL-3',
     'website': 'http://clvsol.com',
     'description': '''
-testing CLVsol Oddoo solutions
-------------------------------
-This module will install all the necessary modules to test the CLVsol Odoo solutions.
+Virtual File Mamagement
+=======================
     ''',
     'depends': [
         'clv_base',
         'clv_tag',
         'clv_annotation',
-        'clv_place',
-        'clv_frame',
-        'clv_person',
-        'clv_patient',
-        'clv_lab_test',
-        'clv_survey',
-        'clv_insured',
         'clv_file',
         ],
     'data': [
-        'mostlyopen_view.xml',
-        'clv_tag_sequence.xml',
-        'clv_annotation_sequence.xml',
-        'clv_place_sequence.xml',
-        'clv_place_category_sequence.xml',
-        'clv_person_sequence.xml',
-        'clv_person_category_sequence.xml',
-        'clv_patient_sequence.xml',
-        'clv_patient_category_sequence.xml',
-        'clv_insured_sequence.xml',
-        'clv_insured_category_sequence.xml',
+        'security/vfmng_security.xml',
+        'vfmng_view.xml',
         ],
     'test': [],
     'installable': True,
