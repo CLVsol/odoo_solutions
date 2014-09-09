@@ -16,3 +16,8 @@
 # You should have received a copy of the GNU Affero General Public License     #
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
+
+import clv_tag
+import clv_annotation
+import clv_person
+import clv_patient

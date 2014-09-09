@@ -17,8 +17,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-import clv_tag
-import clv_annotation
-import clv_person
-import clv_patient
-import clv_insured
+from openerp import models, fields, api
+
+class clv_place(models.Model):
+    _inherit = 'clv_place'
+
+    _defaults = {
+        'active_history': True, 
+        }

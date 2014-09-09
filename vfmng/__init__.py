@@ -17,4 +17,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
+import clv_tag
+import clv_annotation
 import clv_file
