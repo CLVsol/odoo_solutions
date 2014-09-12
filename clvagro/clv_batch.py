@@ -17,41 +17,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-{
-    'name': 'CLVagro - the CLVsol agro solution',
-    'version': '1.0',
-    'author': 'Carlos Eduardo Vercelino - CLVsol',
-    'category': 'Generic Modules/Others',
-    'license': 'AGPL-3',
-    'website': 'http://clvsol.com',
-    'description': '''
-the CLVsol agro solution
-------------------------
-This module will install all the necessary modules to implement the CLVsol agro solution.
-    ''',
-    'depends': [
-        'clv_base',
-        'clv_tag',
-        'clv_annotation',
-        'clv_place',
-        'clv_frame',
-        'clv_tray',
-        'clv_batch',
-        ],
-    'data': [
-        'clvagro_view.xml',
-        'clv_tag_sequence.xml',
-        'clv_annotation_sequence.xml',
-        'clv_place_sequence.xml',
-        'clv_place_category_sequence.xml',
-        'clv_frame_sequence.xml',
-        'clv_frame_category_sequence.xml',
-        'clv_tray_sequence.xml',
-        'clv_tray_category_sequence.xml',
-        'clv_batch_sequence.xml',
-        'clv_batch_category_sequence.xml',
-        ],
-    'test': [],
-    'installable': True,
-    'active': False,
-}
+from openerp import models, fields, api
+
+class clv_batch(models.Model):
+    _inherit = 'clv_batch'
+
+    _defaults = {
+        'active_history': True, 
+        }

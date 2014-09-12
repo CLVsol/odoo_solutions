@@ -25,4 +25,5 @@ import clv_insured
 import clv_place
 import clv_frame
 import clv_tray
+import clv_batch
 import clv_file
