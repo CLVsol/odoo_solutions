@@ -17,8 +17,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-import clv_tag
-import clv_annotation
-import clv_place
-import clv_frame
-import clv_tray
+from openerp import models, fields, api
+
+class clv_tray(models.Model):
+    _inherit = 'clv_tray'
+
+    _defaults = {
+        'active_history': True, 
+        }
