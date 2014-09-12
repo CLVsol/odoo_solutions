@@ -50,6 +50,8 @@ This module will install all the necessary modules to test the CLVsol Odoo solut
         'clv_annotation_sequence.xml',
         'clv_place_sequence.xml',
         'clv_place_category_sequence.xml',
+        'clv_frame_sequence.xml',
+        'clv_frame_category_sequence.xml',
         'clv_person_sequence.xml',
         'clv_person_category_sequence.xml',
         'clv_patient_sequence.xml',

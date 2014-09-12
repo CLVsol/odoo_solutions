@@ -20,3 +20,4 @@
 import clv_tag
 import clv_annotation
 import clv_place
+import clv_frame

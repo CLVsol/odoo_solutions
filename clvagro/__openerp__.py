@@ -44,6 +44,8 @@ This module will install all the necessary modules to implement the CLVsol agro 
         'clv_annotation_sequence.xml',
         'clv_place_sequence.xml',
         'clv_place_category_sequence.xml',
+        'clv_frame_sequence.xml',
+        'clv_frame_category_sequence.xml',
         ],
     'test': [],
     'installable': True,
