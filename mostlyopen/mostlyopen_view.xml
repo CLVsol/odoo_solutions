@@ -304,6 +304,12 @@
                 parent="menu_pbm"
                 groups="clv_base.group_base_user"
                 sequence="10"/>
+                <!-- PBM/PBM/Insurances -->
+                <menuitem name="Insurances" id="menu_pbm_pbm_insurances"
+                    parent="menu_pbm_pbm"
+                    groups="clv_base.group_insurance_user"
+                    sequence="10"
+                    action="clv_insurance.act_open_clv_insurance_view"/>
                 <!-- PBM/PBM/Insureds -->
                 <menuitem name="Insureds" id="menu_pbm_pbm_insureds"
                     parent="menu_pbm_pbm"
@@ -315,6 +321,12 @@
                 parent="menu_pbm"
                 groups="clv_base.group_base_manager"
                 sequence="90"/>
+                <!-- PBM/Configuration/Insurance Categories -->
+                <menuitem name="Insurance Categories" id="menu_pbm_config_insurance_categories"
+                    parent="menu_pbm_config"
+                    groups="clv_base.group_base_manager"
+                    sequence="10"
+                    action="clv_insurance.act_open_clv_insurance_category_view"/>
                 <!-- PBM/Configuration/Insured Categories -->
                 <menuitem name="Insured Categories" id="menu_pbm_config_insured_categories"
                     parent="menu_pbm_config"
