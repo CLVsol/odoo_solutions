@@ -37,6 +37,7 @@ This module will install all the necessary modules to implement the CLVsol agro 
         'clv_frame',
         'clv_tray',
         'clv_batch',
+        'clv_seedling',
         ],
     'data': [
         'clvagro_view.xml',

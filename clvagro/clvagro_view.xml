@@ -108,7 +108,13 @@
                         groups="clv_base.group_batch_user"
                         sequence="50" 
                         action="clv_batch.act_open_clv_batch_pointing_view"/>
- -->            <!-- Agro/Configuration -->
+ -->                <!-- Agro/Agro/Seedlings -->
+                <menuitem name="Seedlings" id="menu_agro_agro_seedlings" 
+                    parent="menu_agro_agro"
+                    groups="clv_base.group_seedling_user"
+                    sequence="50" 
+                    action="clv_seedling.act_open_clv_seedling_view"/>
+            <!-- Agro/Configuration -->
             <menuitem name="Configuration" id="menu_agro_config"  
                 parent="menu_agro"
                 groups="clv_base.group_base_manager"
@@ -154,6 +160,12 @@
                         groups="clv_base.group_batch_user"
                         sequence="30"
                         action="clv_batch.act_open_clv_batch_pointing_p1_view"/>
- -->
+ -->                <!-- Agro/Configuration/Seedling Categories -->
+                <menuitem name="Seedling Categories" id="menu_agro_config_seedling_categories"
+                    parent="menu_agro_config"
+                    groups="clv_base.group_seedling_user"
+                    sequence="50"
+                    action="clv_seedling.act_open_clv_seedling_category_view"/>
+
     </data>
 </openerp>
