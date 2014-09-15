@@ -34,6 +34,7 @@ This module will install all the necessary modules for the CLVhealth-PBM solutio
         'clv_person',
         'clv_patient',
         'clv_insurance',
+        'clv_insurance_client',
         'clv_insured',
         ],
     'data': [
