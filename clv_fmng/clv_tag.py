@@ -17,27 +17,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-{
-    'name': 'Virtual File Mamagement',
-    'version': '1.0',
-    'author': 'Carlos Eduardo Vercelino - CLVsol',
-    'category': 'Generic Modules/Others',
-    'license': 'AGPL-3',
-    'website': 'http://clvsol.com',
-    'description': '''
-Virtual File Mamagement
-=======================
-    ''',
-    'depends': [
-        'clv_base',
-        'clv_tag',
-        'clv_annotation',
-        'clv_file',
-        ],
-    'data': [
-        'vfmng_view.xml',
-        ],
-    'test': [],
-    'installable': True,
-    'active': False,
-}
+from openerp import models, fields, api
+
+class clv_tag(models.Model):
+    _inherit = 'clv_tag'
+
+    _defaults = {
+        'active_history': True, 
+        }

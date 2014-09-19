@@ -18,15 +18,15 @@
 ################################################################################
 
 {
-    'name': 'Virtual File Mamagement',
+    'name': 'File Mamagement',
     'version': '1.0',
     'author': 'Carlos Eduardo Vercelino - CLVsol',
     'category': 'Generic Modules/Others',
     'license': 'AGPL-3',
     'website': 'http://clvsol.com',
     'description': '''
-Virtual File Mamagement
-=======================
+File Mamagement
+===============
     ''',
     'depends': [
         'clv_base',
@@ -35,7 +35,7 @@ Virtual File Mamagement
         'clv_file',
         ],
     'data': [
-        'vfmng_view.xml',
+        'clv_fmng_view.xml',
         ],
     'test': [],
     'installable': True,

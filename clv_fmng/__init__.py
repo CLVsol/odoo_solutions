@@ -17,27 +17,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.        #
 ################################################################################
 
-{
-    'name': 'Virtual File Mamagement',
-    'version': '1.0',
-    'author': 'Carlos Eduardo Vercelino - CLVsol',
-    'category': 'Generic Modules/Others',
-    'license': 'AGPL-3',
-    'website': 'http://clvsol.com',
-    'description': '''
-Virtual File Mamagement
-=======================
-    ''',
-    'depends': [
-        'clv_base',
-        'clv_tag',
-        'clv_annotation',
-        'clv_file',
-        ],
-    'data': [
-        'vfmng_view.xml',
-        ],
-    'test': [],
-    'installable': True,
-    'active': False,
-}
+import clv_tag
+import clv_annotation
+import clv_file
