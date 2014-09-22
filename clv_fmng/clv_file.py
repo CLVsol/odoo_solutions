@@ -22,6 +22,8 @@ from openerp import models, fields, api
 class clv_file(models.Model):
     _inherit = 'clv_file'
 
+    history_ids = fields.One2many('clv_file.history', 'file_id', 'File History', readonly=False)
+
     _defaults = {
         'active_history': True, 
         }
