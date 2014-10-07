@@ -38,6 +38,7 @@ This module will install all the necessary modules for the CLVhealth-JCAFB solut
         ],
     'data': [
         'clvhealth_jcafb_view.xml',
+        'survey_jcafb_data.xml',
         ],
     'test': [],
     'installable': True,
