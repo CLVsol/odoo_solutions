@@ -39,9 +39,9 @@ This module will install all the necessary modules for the CLVhealth-JCAFB solut
     'data': [
         'clvhealth_jcafb_view.xml',
         'survey_jcafb_QSE15_data.xml',
-        'survey_jcafb_QMO15_data.xml',
-        'survey_jcafb_IDA15_data.xml',
-        'survey_jcafb_IDH15_data.xml',
+        'survey_jcafb_QMD15_data.xml',
+        'survey_jcafb_QAN15_data.xml',
+        'survey_jcafb_QDH15_data.xml',
         ],
     'test': [],
     'installable': True,
