@@ -31,14 +31,14 @@
 
                     <record model="survey.answer" id="QDH15_1_1_1">
                         <field name="answer">[QDH15_1_1_1] Nome</field>
-                        <field name="question_id" ref="QDH15_1_1" />
+                        <field name="question_id" ref="QDH15_1_1"/>
                         <field eval="10" name="sequence"/>
                         <field name="type">char</field>
                     </record>
 
                     <record model="survey.answer" id="QDH15_1_1_2">
                         <field name="answer">[QDH15_1_1_2] Código</field>
-                        <field name="question_id" ref="QDH15_1_1" />
+                        <field name="question_id" ref="QDH15_1_1"/>
                         <field eval="20" name="sequence"/>
                         <field name="type">char</field>
                     </record>
@@ -56,21 +56,21 @@
 
                     <record model="survey.answer" id="QDH15_1_2_1">
                         <field name="answer">[QDH15_1_2_1] Aplicado por</field>
-                        <field name="question_id" ref="QDH15_1_2" />
+                        <field name="question_id" ref="QDH15_1_2"/>
                         <field eval="10" name="sequence"/>
                         <field name="type">char</field>
                     </record>
 
                     <record model="survey.answer" id="QDH15_1_2_2">
                         <field name="answer">[QDH15_1_2_2] Código</field>
-                        <field name="question_id" ref="QDH15_1_2" />
+                        <field name="question_id" ref="QDH15_1_2"/>
                         <field eval="20" name="sequence"/>
                         <field name="type">char</field>
                     </record>
 
                     <record model="survey.answer" id="QDH15_1_2_3">
                         <field name="answer">[QDH15_1_2_3] Data</field>
-                        <field name="question_id" ref="QDH15_1_2" />
+                        <field name="question_id" ref="QDH15_1_2"/>
                         <field eval="30" name="sequence"/>
                         <field name="type">date</field>
                     </record>
@@ -78,29 +78,29 @@
                 <record model="survey.question" id="QDH15_1_3">
                     <field name="question">[QDH15_1_3] Entrevistado</field>
                     <field name="type">multiple_choice_only_one_ans</field>
-                    <field name="page_id" ref="QDH15_1" />
+                    <field name="page_id" ref="QDH15_1"/>
                     <field eval="30" name="sequence"/>
                     <field name="is_require_answer">1</field>
                     <field name="req_error_msg">Informar quem respondeu ao questionário.</field>
                     <field name="is_comment_require">True</field>
-                    <field name="comment_label">Nome</field>
+                    <field name="comment_label">Nome (Grau de Parentesco)</field>
                 </record>
 
                     <record model="survey.answer" id="QDH15_1_3_1">
                         <field name="answer">[QDH15_1_3_1] a) Responsável</field>
-                        <field name="question_id" ref="QDH15_1_3" />
+                        <field name="question_id" ref="QDH15_1_3"/>
                         <field name="sequence" eval="10"/>
                     </record>
 
                     <record model="survey.answer" id="QDH15_1_3_2">
                         <field name="answer">[QDH15_1_3_2] b) Paciente</field>
-                        <field name="question_id" ref="QDH15_1_3" />
+                        <field name="question_id" ref="QDH15_1_3"/>
                         <field name="sequence" eval="20"/>
                     </record>
 
                     <record model="survey.answer" id="QDH15_1_3_3">
                         <field name="answer">[QDH15_1_3_3] c) Cuidador</field>
-                        <field name="question_id" ref="QDH15_1_3" />
+                        <field name="question_id" ref="QDH15_1_3"/>
                         <field name="sequence" eval="30"/>
                     </record>
 
