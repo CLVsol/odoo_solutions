@@ -30,6 +30,7 @@ This module will install all the necessary modules for the CLVhealth solution.
     'depends': [
         'clv_base',
         'clv_tag',
+        'clv_annotation',
         #'clv_survey',
         ],
     'data': [
