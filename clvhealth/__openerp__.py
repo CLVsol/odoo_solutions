@@ -31,10 +31,12 @@ This module will install all the necessary modules for the CLVhealth solution.
         'clv_base',
         'clv_tag',
         'clv_annotation',
-        'clv_community',
+        #'clv_community',
+        #'clv_family',
         'clv_person',
         'clv_patient',
         #'clv_survey',
+        'clv_medicament',
         ],
     'data': [
         'clvhealth_view.xml',
